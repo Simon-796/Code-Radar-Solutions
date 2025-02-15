@@ -5,37 +5,37 @@ int main(){
     if(a==1){
         printf("31");
     }
-    if(a==2){
+    else if(a==2){
         printf("28");
     }
-    if(a==3){
+    else if(a==3){
         printf("31");
     }
-    if(a==4){
+    else if(a==4){
         printf("30");
     }
-    if(a==5){
+    else if(a==5){
         printf("31");
     }
-    if(a==6){
+    else if(a==6){
         printf("30");
     }
-    if(a==7){
+    else if(a==7){
         printf("31");
     }
-    if(a==8){
+    else if(a==8){
         printf("31");
     }
-    if(a==9){
+    else if(a==9){
         printf("30");
     }
-    if(a==10){
+    else if(a==10){
         printf("31");
     }
-    if(a==11){
+    else if(a==11){
         printf("30");
     }
-    if(a==12){
+    else if(a==12){
         printf("31");
     }
     else{
