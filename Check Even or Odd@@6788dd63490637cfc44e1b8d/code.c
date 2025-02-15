@@ -3,10 +3,9 @@ int main(){
     int a;
     sacnf("%d", &a);
     if(a%2==0){
-        printf("Even");
+        printf("Even");}
     else{
         printf("Odd");
-    }
     }
     return 0;
 }
