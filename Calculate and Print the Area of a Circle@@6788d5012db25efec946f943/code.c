@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define pi  3.14
+#define pi 3.14159265358979323846
 int main(){
     int r;
     scanf("%d", &r);
