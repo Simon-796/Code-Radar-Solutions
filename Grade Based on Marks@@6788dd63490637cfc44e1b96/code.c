@@ -3,7 +3,7 @@ int main(){
     int a;
     scanf("%d", &a);
     if(a>=90){
-        ptintf("A");
+        printf("A");
     }
     else if(a>=80 && a<90){
         printf("B");
