@@ -15,7 +15,7 @@ int main(){
             printf("error");
         }
         else if(a%b!=0){
-            printf("error")
+            printf("error");
         }
     }
     else if(c=='*'){
