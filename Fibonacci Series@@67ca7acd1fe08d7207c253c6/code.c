@@ -12,7 +12,7 @@ int main(){
     if(a<=0){
         printf("Invalid input\n");
     }
-    int f = fibo(a);
+    int f = fibonacciSeries(a);
     printf("%d", f);
     return 0;
 }
