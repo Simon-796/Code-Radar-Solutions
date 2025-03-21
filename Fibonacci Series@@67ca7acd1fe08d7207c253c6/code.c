@@ -11,9 +11,10 @@ int main(){
     scanf("%d", &a);
     if(a<=0){
         printf("Invalid input\n");
+        return 1;
     }
-    for(int i=0; i<=a; i++){
-        printf("%d", fibonacciSeries(i));
+    for(int i=1; i<=a; i++){
+        printf("%d ", fibonacciSeries(i));
     }
     
     return 0;
