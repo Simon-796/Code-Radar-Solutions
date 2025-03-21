@@ -13,7 +13,7 @@ int main(){
         printf("Invalid input\n");
     }
     for(int i=0; i<=a; i++){
-        printf("%d", fibonacciSeries(a))
+        printf("%d", fibonacciSeries(i));
     }
     int f = fibonacciSeries(a);
     printf("%d", f);
