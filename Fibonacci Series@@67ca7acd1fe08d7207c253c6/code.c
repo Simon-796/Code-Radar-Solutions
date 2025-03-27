@@ -1,8 +1,13 @@
 #include <stdio.h>
-// int fibonacciSeries(int a);
 int fibonacciSeries(int a){
-    if(a==1 || a==2){
-        return a-1;
+    int t1 =0, t2 = 1, nextterm;
+    printf("");
+    for(int i = 1; i<= n; i++){
+        printf("%d ", t1);
+        nextterm = t1 + t2;
+        t1 = t2;
+        t2 = nextterm;
+
     }
-    return fibonacciSeries(a-1) + fibonacciSeries(a-2);
+    printf("\n");
 }
