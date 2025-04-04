@@ -15,6 +15,6 @@ int main(){
         scanf("%d", &arr[i]);
     }
     peak(arr,n);
-    printf("%d", arr[]);
+    printf("%d", arr[n]);
     return 0;
 }
