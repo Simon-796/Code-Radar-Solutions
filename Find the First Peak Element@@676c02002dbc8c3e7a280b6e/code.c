@@ -1,9 +1,12 @@
 #include <stdio.h>
 void peak(int arr[], int n){
     for(int i=0; i<n; i++){
+        if( arr[i]>arr[i-1] && arr[i]>arr[i+1]){
+            printf("%d", arr[i]);
+        }
 
-        arr[i+1]>arr[i];
-        arr[i+1]>arr[i+2];  
+       
+          
     }
     return;
 
@@ -16,6 +19,5 @@ int main(){
         scanf("%d", &arr[i]);
     }
     peak(arr,n);
-    printf("%d", n);
     return 0;
 }
