@@ -21,14 +21,14 @@ int main(){
     }
     sort(arr, n);
     
-    for(int i=0; i<n; i++){
+    
         if(sort){
             printf("Sorted");
         }
         else{
             printf("Not Sorted");
         }
-    }
+    
     
    
     return 0;
