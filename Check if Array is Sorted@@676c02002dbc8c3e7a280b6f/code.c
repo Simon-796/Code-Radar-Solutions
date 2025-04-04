@@ -22,10 +22,10 @@ int main(){
     sort(arr, n);
     
     
-        if(!sort){
+        if(sort){
             printf("Sorted");
         }
-        else{
+        if(!sort){
             printf("Not Sorted");
         }
     
