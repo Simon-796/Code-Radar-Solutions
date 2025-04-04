@@ -14,7 +14,7 @@ int main(){
     for(int i=0; i<n; i++){
         scanf("%d", &arr[i]);
     }
-    peak(arr,n);
-    printf("%d", n);
+    int peaknum = peak(arr,n);
+    printf("%d", peaknum);
     return 0;
 }
