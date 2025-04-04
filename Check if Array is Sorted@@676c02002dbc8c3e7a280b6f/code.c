@@ -19,9 +19,10 @@ int main(){
     for(int i=0; i<n; i++){
         scanf("%d", &arr[i]);
     }
+    sort(arr, n);
     
     for(int i=0; i<n; i++){
-        if(arr[i]){
+        if(sort){
             printf("Sorted");
         }
         else{
