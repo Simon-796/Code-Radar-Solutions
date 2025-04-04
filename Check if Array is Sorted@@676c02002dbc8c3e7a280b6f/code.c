@@ -22,7 +22,7 @@ int main(){
     sort(arr, n);
     
     
-        if(sort){
+        if(!sort){
             printf("Sorted");
         }
         else{
