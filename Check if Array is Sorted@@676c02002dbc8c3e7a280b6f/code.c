@@ -1,5 +1,5 @@
 #include <stdio.h>
-int sort(int arr[], int n){
+void sort(int arr[], int n){
     for(int i=0; i<n-1-i; i++){
         for(int j=0; j<n-2; j++){ 
             if(arr[j]>arr[j+1]){
@@ -7,9 +7,12 @@ int sort(int arr[], int n){
                 arr[j] = arr[j+1];
                 arr[j+1] = temp;
             } return 1;
+            else{
+                return 0;
+            }
         }
     }
-    return 0;
+    return;
 
 
 }
