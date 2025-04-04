@@ -1,5 +1,11 @@
 #include <stdio.h>
-void sort(int arr[], int n){
+int main(){
+    int n;
+    scanf("%d", &n);
+    int arr[n];
+    for(int i=0; i<n; i++){
+        scanf("%d", &arr[i]);
+    }
     for(int i=0; i<n-1-i; i++){
         for(int j=0; j<n-2; j++){
             if(arr[j]>arr[j+1]){
@@ -9,23 +15,12 @@ void sort(int arr[], int n){
             }
         }
     }
-    return ;
-
-}
-int main(){
-    int n;
-    scanf("%d", &n);
-    int arr[n];
-    for(int i=0; i<n; i++){
-        scanf("%d", &arr[i]);
-    }
-    sort(arr, n);
     
     
-        if(sort){
+        if(arr[i]){
             printf("Sorted");
         }
-        if(!sort){
+        else{
             printf("Not Sorted");
         }
     
