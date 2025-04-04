@@ -19,8 +19,9 @@ int main(){
                
             }
         }
-         sort = 0;
+         
     }
+    sort = 0;
     
     
         if(sort){
