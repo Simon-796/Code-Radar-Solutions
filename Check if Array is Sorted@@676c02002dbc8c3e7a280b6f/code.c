@@ -9,8 +9,9 @@ int sort(int arr[], int n){
                 arr[j+1] = temp;
             } return 1;
         }
+         return 0;
     }
-    return 0;
+   
 
 
 }
